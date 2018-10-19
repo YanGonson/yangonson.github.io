@@ -83,7 +83,7 @@
 <meta name="keywords" content="随笔,hexo,next">
 <meta property="og:type" content="article">
 <meta property="og:title" content="初来乍到">
-<meta property="og:url" content="http://yangonson.github.io/2018/10/18/初来乍到/index.html">
+<meta property="og:url" content="http://yangonson.github.io/随笔/2018/10/初来乍到.html">
 <meta property="og:site_name" content="YanGonson">
 <meta property="og:description" content="Some thoughts其实没有太多的为什么吧，每个阶段都会有一些突如其来的想法，想做某一件事、想实现一些目标、执行一些计划！突如其来的对我而言往往只有三分钟热度吧，但是不知道为什么内心有一种感觉，这一次或许能坚持下去。">
 <meta property="og:locale" content="zh-Hans">
@@ -103,7 +103,7 @@
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"bounceLeftIn"}},
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -120,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="http://yangonson.github.io/2018/10/18/初来乍到/"/>
+  <link rel="canonical" href="http://yangonson.github.io/随笔/2018/10/初来乍到.html"/>
 
 
 
@@ -191,22 +191,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
             分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
           </a>
         </li>
       
@@ -253,12 +253,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yangonson.github.io/2018/10/18/初来乍到/">
+    <link itemprop="mainEntityOfPage" href="http://yangonson.github.io/随笔/2018/10/初来乍到.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YanGonson">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/touxiang.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -358,7 +358,7 @@
     
       <div>
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>Donate comment here</div>
+  <div>打赏什么的请忽略</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
     <span>打赏</span>
   </button>
@@ -372,11 +372,6 @@
     
 
     
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="YanGonson 支付宝"/>
-        <p>支付宝</p>
-      </div>
-    
 
     
 
@@ -386,24 +381,6 @@
       </div>
     
 
-    
-      <div>
-        <ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者：</strong>
-    YanGonson
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="http://yangonson.github.io/2018/10/18/初来乍到/" title="初来乍到">http://yangonson.github.io/2018/10/18/初来乍到/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="http://yangonson.github.io" rel="external nofollow" target="_blank">YanGonson Github</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-
-      </div>
     
 
     <footer class="post-footer">
@@ -485,6 +462,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/touxiang.jpg"
+                alt="YanGonson" />
+            
               <p class="site-author-name" itemprop="name">YanGonson</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -506,10 +487,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -517,10 +498,10 @@
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
