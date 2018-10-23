@@ -14,8 +14,8 @@
         return {
             l: w,
             z: o(v, "zIndex", -2),
-            o: o(v, "opacity", 0.1),
-            c: o(v, "color", "238,0,0"),
+            o: o(v, "opacity", 0.3),
+            c: o(v, "color", "0,255,255"),
             n: o(v, "count", 110)
         }
     }
@@ -77,5 +77,5 @@
     }
     setTimeout(function () {
         b()
-    }, 8000)
+    }, 3000)
 }();
